@@ -1,0 +1,15 @@
+Hi Geoffrey,
+
+PRs, pushes and pulls seem to work fine. I have not seen any
+problems.
+when "renaming" the organization it says to rename ASAP all the URLs for the remotes
+to point to the correct link.
+Old links work but, when you rename the organization the "old" name is set free since
+you have a new one. If a user picks this up and pushes something to it it could be that
+the files overwrite what you presumely have in the "old" repository.
+
+It says here:
+You can continue pushing your local repositories to the old remote tracking URL without updating it. However, we recommend you update all existing remote repository URLs after changing your organization name. Because your old organization name is available for use by anyone else after you change it, that person would be able to create repositories that override the redirect entries.
+
+What I don't understand is if in two weeks after the renaming of the organization from droolsjbpm to kiegreoup (or kie-group) a user ceates a new 
+organization called "droolsjbpm" can he sabotage our reps? 
